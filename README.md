@@ -1,16 +1,22 @@
-# Rafa Networks
+# Rafael Barros - sitio profesional
 
-Sitio estático para servicios de ingeniería de sistemas y redes. Está preparado para publicarse con GitHub Pages.
+Borrador web inspirado en la identidad visual de la cuenta de cobro de Rafael Barros.
 
-## Personalización rápida
+## Contenido
 
-- En `index.html`, reemplaza `tu-correo@ejemplo.com` y `570000000000` por tus datos reales.
-- Cambia el nombre **Rafa Networks**, los textos y servicios directamente en `index.html`.
-- Ajusta colores desde las variables al inicio de `styles.css`.
+- Presentación profesional y marca personal.
+- Networking avanzado, MikroTik y optimización Wi-Fi.
+- Ciberseguridad y protección perimetral.
+- Conexiones remotas y VPN.
+- Infraestructura, cámaras IP y soporte.
+- Animaciones, telemetría conceptual y diseño responsive.
+- Banner corporativo principal con la nueva identidad RB.
 
-## Publicar en GitHub Pages
+## Editar
 
-1. Sube estos archivos a un repositorio de GitHub.
-2. En el repositorio ve a **Settings → Pages**.
-3. En *Build and deployment*, selecciona **Deploy from a branch**, rama `main` y carpeta `/(root)`.
-4. Guarda. GitHub mostrará la URL pública en esa misma pantalla.
+- Textos y enlaces: `index.html`
+- Colores y diseño: `styles.css`
+- Animaciones e interacción: `script.js`
+- Banner corporativo: `assets/rb-banner.png`
+
+El correo configurado en todos los llamados a la acción es `rafaelbarrosec@gmail.com`.

@@ -2,77 +2,425 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Servicios profesionales de redes, MikroTik, soporte técnico e infraestructura tecnológica." />
-    <title>Rafa Networks | Ingeniería de sistemas y redes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#030914" />
+    <meta
+      name="description"
+      content="Rafael Barros - ingeniería de sistemas, networking avanzado, ciberseguridad y conexiones remotas seguras."
+    />
+    <meta property="og:title" content="Rafael Barros | Networking avanzado" />
+    <meta
+      property="og:description"
+      content="Infraestructura conectada, protegida y preparada para crecer."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="assets/rb-banner.png" />
+    <title>Rafael Barros | Networking avanzado y ciberseguridad</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header class="site-header">
-      <a class="brand" href="#inicio" aria-label="Rafa Networks - inicio"><span>R</span> Rafa Networks</a>
-      <button class="menu-button" aria-label="Abrir menú" aria-expanded="false">☰</button>
-      <nav class="nav" aria-label="Navegación principal">
-        <a href="#servicios">Servicios</a>
-        <a href="#nosotros">Experiencia</a>
-        <a href="#proceso">Proceso</a>
-        <a class="button button-small" href="#contacto">Hablemos</a>
+    <div class="page-noise" aria-hidden="true"></div>
+    <header class="site-header" data-header>
+      <a class="brand" href="#inicio" aria-label="Rafael Barros, inicio">
+        <span class="brand-monogram">RB</span>
+        <span class="brand-name">RAFAEL BARROS<small>NETWORKING AVANZADO</small></span>
+      </a>
+      <nav class="desktop-nav" aria-label="Navegación principal">
+        <a href="#capacidades">Capacidades</a>
+        <a href="#arquitectura">Arquitectura</a>
+        <a href="#metodologia">Metodología</a>
+        <a href="#ecosistema">Ecosistema</a>
       </nav>
+      <a class="header-cta" href="mailto:rafaelbarrosec@gmail.com?subject=Solicitud%20de%20diagn%C3%B3stico">
+        Iniciar conversación
+        <span aria-hidden="true">↗</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span>
+      </button>
     </header>
 
+    <nav class="mobile-nav" aria-label="Navegación móvil" data-mobile-nav>
+      <a href="#capacidades">Capacidades</a>
+      <a href="#arquitectura">Arquitectura</a>
+      <a href="#metodologia">Metodología</a>
+      <a href="#ecosistema">Ecosistema</a>
+      <a href="mailto:rafaelbarrosec@gmail.com">rafaelbarrosec@gmail.com</a>
+    </nav>
+
     <main>
-      <section class="hero" id="inicio">
-        <div class="hero-copy">
-          <p class="eyebrow">INGENIERÍA DE SISTEMAS Y REDES</p>
-          <h1>Tu operación conectada, <em>segura</em> y siempre disponible.</h1>
-          <p class="lead">Diseñamos, implementamos y damos soporte a redes e infraestructura tecnológica para que tu negocio se concentre en crecer.</p>
-          <div class="hero-actions">
-            <a class="button" href="#contacto">Solicitar diagnóstico <span>→</span></a>
-            <a class="text-link" href="#servicios">Conoce los servicios <span>↓</span></a>
+      <section class="brand-banner" id="inicio" aria-label="Rafael Barros, networking avanzado y ciberseguridad">
+        <img
+          src="assets/rb-banner.png"
+          alt="Rafael Barros - RB Systems Engineering, networking avanzado y ciberseguridad"
+        />
+        <a class="banner-action" href="#soluciones">
+          Explorar soluciones
+          <span aria-hidden="true">↓</span>
+        </a>
+      </section>
+
+      <section class="hero" id="soluciones">
+        <canvas class="network-canvas" data-network aria-hidden="true"></canvas>
+        <div class="hero-glow hero-glow-a" aria-hidden="true"></div>
+        <div class="hero-glow hero-glow-b" aria-hidden="true"></div>
+
+        <div class="hero-content">
+          <div class="availability reveal">
+            <span class="availability-dot"></span>
+            Ingeniería aplicada a redes e infraestructura
           </div>
-          <div class="trust-row"><span>✓ Atención personalizada</span><span>✓ Soluciones escalables</span></div>
+          <p class="hero-kicker reveal">RAFAEL BARROS <span>/ SYSTEMS & NETWORK ENGINEER</span></p>
+          <h1 class="reveal">
+            Redes que conectan.<br />
+            Seguridad que <span class="gradient-text">protege.</span>
+          </h1>
+          <p class="hero-description reveal">
+            Diseño ecosistemas tecnológicos robustos para empresas, conjuntos residenciales y operaciones
+            distribuidas: networking avanzado, ciberseguridad y acceso remoto sin fricción.
+          </p>
+          <div class="hero-actions reveal">
+            <a class="button button-primary magnetic" href="mailto:rafaelbarrosec@gmail.com?subject=Quiero%20fortalecer%20mi%20infraestructura">
+              Hablemos de tu infraestructura
+              <span aria-hidden="true">↗</span>
+            </a>
+            <a class="button button-ghost" href="#capacidades">
+              Explorar capacidades
+              <span aria-hidden="true">↓</span>
+            </a>
+          </div>
+          <div class="hero-proof reveal" aria-label="Áreas de especialidad">
+            <div><strong>01</strong><span>Networking<br />avanzado</span></div>
+            <div><strong>02</strong><span>Seguridad<br />por diseño</span></div>
+            <div><strong>03</strong><span>Acceso remoto<br />controlado</span></div>
+          </div>
         </div>
-        <div class="network-card" aria-label="Ilustración de una red conectada">
-          <div class="orb orb-one"></div><div class="orb orb-two"></div>
-          <div class="grid-lines"></div>
-          <div class="node node-main">R<span>Router</span></div>
-          <div class="node node-a">⌂<span>Oficina</span></div>
-          <div class="node node-b">▣<span>Cloud</span></div>
-          <div class="node node-c">◉<span>Usuarios</span></div>
-          <svg viewBox="0 0 500 420" aria-hidden="true"><path d="M250 192 L122 105 M250 192 L390 102 M250 192 L391 308" /><path d="M250 192 L118 307" /></svg>
-          <div class="status"><i></i> Red optimizada</div>
+
+        <aside class="operations-panel reveal" aria-label="Estado conceptual de la infraestructura">
+          <div class="panel-top">
+            <div>
+              <span class="panel-label">NETWORK OPERATIONS</span>
+              <strong>Infraestructura activa</strong>
+            </div>
+            <span class="live-pill"><i></i> LIVE</span>
+          </div>
+          <div class="network-orbit" aria-hidden="true">
+            <div class="orbit orbit-one"></div>
+            <div class="orbit orbit-two"></div>
+            <div class="core-node"><span>RB</span><small>CORE</small></div>
+            <span class="satellite satellite-a">FW</span>
+            <span class="satellite satellite-b">VPN</span>
+            <span class="satellite satellite-c">LAN</span>
+            <span class="satellite satellite-d">WAN</span>
+          </div>
+          <div class="signal-grid">
+            <div>
+              <span>Disponibilidad</span>
+              <strong>Optimizada</strong>
+              <i class="signal-bar"><b style="--value: 92%"></b></i>
+            </div>
+            <div>
+              <span>Segmentación</span>
+              <strong>Controlada</strong>
+              <i class="signal-bar"><b style="--value: 86%"></b></i>
+            </div>
+            <div>
+              <span>Acceso remoto</span>
+              <strong>Cifrado</strong>
+              <i class="signal-bar"><b style="--value: 96%"></b></i>
+            </div>
+          </div>
+          <div class="panel-footer">
+            <span><i></i> Monitoreo</span>
+            <span><i></i> Redundancia</span>
+            <span><i></i> Seguridad</span>
+          </div>
+        </aside>
+
+        <a class="scroll-cue" href="#capacidades" aria-label="Desplazarse a capacidades">
+          <span>SCROLL TO DISCOVER</span><i></i>
+        </a>
+      </section>
+
+      <section class="brand-strip" id="ecosistema" aria-label="Ecosistema tecnológico">
+        <p>TECNOLOGÍAS CON LAS QUE DISEÑAMOS SOLUCIONES</p>
+        <div class="logo-marquee">
+          <div class="logo-track">
+            <div class="tech-logo"><img src="https://cdn.simpleicons.org/mikrotik/FFFFFF" alt="" /><span>MikroTik</span></div>
+            <div class="tech-logo"><img src="https://cdn.simpleicons.org/cisco/FFFFFF" alt="" /><span>Cisco</span></div>
+            <div class="tech-logo"><img src="https://cdn.simpleicons.org/ubiquiti/FFFFFF" alt="" /><span>Ubiquiti</span></div>
+            <div class="tech-logo"><img src="https://cdn.simpleicons.org/tplink/FFFFFF" alt="" /><span>TP-Link</span></div>
+            <div class="tech-logo"><img src="https://cdn.simpleicons.org/fortinet/FFFFFF" alt="" /><span>Fortinet</span></div>
+            <div class="tech-logo"><i class="windows-mark" aria-hidden="true"></i><span>Microsoft</span></div>
+            <div class="tech-logo"><img src="https://cdn.simpleicons.org/anydesk/FFFFFF" alt="" /><span>AnyDesk</span></div>
+            <div class="tech-logo"><img src="https://cdn.simpleicons.org/teamviewer/FFFFFF" alt="" /><span>TeamViewer</span></div>
+            <div class="tech-logo duplicate" aria-hidden="true"><img src="https://cdn.simpleicons.org/mikrotik/FFFFFF" alt="" /><span>MikroTik</span></div>
+            <div class="tech-logo duplicate" aria-hidden="true"><img src="https://cdn.simpleicons.org/cisco/FFFFFF" alt="" /><span>Cisco</span></div>
+            <div class="tech-logo duplicate" aria-hidden="true"><img src="https://cdn.simpleicons.org/ubiquiti/FFFFFF" alt="" /><span>Ubiquiti</span></div>
+            <div class="tech-logo duplicate" aria-hidden="true"><img src="https://cdn.simpleicons.org/tplink/FFFFFF" alt="" /><span>TP-Link</span></div>
+          </div>
         </div>
       </section>
 
-      <section class="services section" id="servicios">
-        <div class="section-heading"><p class="eyebrow">SERVICIOS</p><h2>Tecnología que trabaja a favor de tu negocio.</h2><p>Soluciones claras, diseñadas según el tamaño y los retos de tu operación.</p></div>
-        <div class="service-grid">
-          <article><div class="icon">⌁</div><h3>Redes y conectividad</h3><p>Diseño, cableado estructurado, Wi‑Fi empresarial y optimización de redes para una conexión confiable.</p><a href="#contacto">Ver solución →</a></article>
-          <article><div class="icon">◈</div><h3>MikroTik y seguridad</h3><p>Configuración de routers, firewalls, VPN, balanceo de carga y políticas de acceso que protegen tu red.</p><a href="#contacto">Ver solución →</a></article>
-          <article><div class="icon">▤</div><h3>Soporte técnico</h3><p>Acompañamiento remoto o presencial, mantenimiento preventivo y resolución ágil de incidentes.</p><a href="#contacto">Ver solución →</a></article>
-          <article><div class="icon">↗</div><h3>Infraestructura</h3><p>Servidores, respaldos, virtualización y servicios en la nube para que tu información esté disponible.</p><a href="#contacto">Ver solución →</a></article>
+      <section class="capabilities section" id="capacidades">
+        <div class="section-heading reveal">
+          <div>
+            <p class="section-index">01 / CAPACIDADES</p>
+            <h2>Ingeniería integral para un entorno <span>siempre conectado.</span></h2>
+          </div>
+          <p>
+            Cada solución parte de una necesidad real, se diseña con alcance definido y se entrega documentada
+            para que tu infraestructura pueda evolucionar sin perder control.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card featured reveal">
+            <div class="service-number">01</div>
+            <div class="service-icon network-icon" aria-hidden="true">
+              <span></span><i></i><b></b><em></em>
+            </div>
+            <p class="service-tag">CORE EXPERTISE</p>
+            <h3>Networking avanzado</h3>
+            <p class="service-summary">
+              Redes de alto desempeño diseñadas para continuidad, visibilidad y crecimiento.
+            </p>
+            <ul>
+              <li>Diseño LAN, WAN y WLAN empresarial</li>
+              <li>VLAN, routing, QoS y balanceo de carga</li>
+              <li>Failover y enlaces redundantes</li>
+              <li>MikroTik RouterOS, hotspots y CAPsMAN</li>
+              <li>Optimización de Wi-Fi y cobertura</li>
+            </ul>
+            <button class="service-link" type="button" data-service="networking">
+              Ver alcance completo <span>↗</span>
+            </button>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-number">02</div>
+            <div class="service-icon shield-icon" aria-hidden="true"><span></span></div>
+            <p class="service-tag">SECURITY LAYER</p>
+            <h3>Ciberseguridad</h3>
+            <p class="service-summary">
+              Protección por capas para reducir superficie de ataque y controlar cada acceso.
+            </p>
+            <ul>
+              <li>Firewalls y políticas de acceso</li>
+              <li>Segmentación de usuarios y dispositivos</li>
+              <li>Hardening de equipos de red</li>
+              <li>VPN cifrada y protección perimetral</li>
+              <li>Diagnóstico de exposición y riesgos</li>
+            </ul>
+            <button class="service-link" type="button" data-service="security">
+              Ver alcance completo <span>↗</span>
+            </button>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-number">03</div>
+            <div class="service-icon remote-icon" aria-hidden="true"><span></span><i></i></div>
+            <p class="service-tag">SECURE ACCESS</p>
+            <h3>Conexiones remotas</h3>
+            <p class="service-summary">
+              Acceso seguro a recursos, sedes y equipos desde cualquier ubicación autorizada.
+            </p>
+            <ul>
+              <li>VPN site-to-site y client-to-site</li>
+              <li>Administración remota controlada</li>
+              <li>Acceso a cámaras y recursos internos</li>
+              <li>Soporte remoto a usuarios</li>
+              <li>Trazabilidad y perfiles de acceso</li>
+            </ul>
+            <button class="service-link" type="button" data-service="remote">
+              Ver alcance completo <span>↗</span>
+            </button>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-number">04</div>
+            <div class="service-icon infra-icon" aria-hidden="true"><span></span><i></i><b></b></div>
+            <p class="service-tag">INFRASTRUCTURE</p>
+            <h3>Infraestructura & soporte</h3>
+            <p class="service-summary">
+              Componentes, documentación y acompañamiento para sostener la operación.
+            </p>
+            <ul>
+              <li>Cableado y ordenamiento de racks</li>
+              <li>Cámaras IP y conectividad IoT</li>
+              <li>Servidores, respaldos y nube</li>
+              <li>Diagnóstico y mantenimiento</li>
+              <li>Inventario y documentación técnica</li>
+            </ul>
+            <button class="service-link" type="button" data-service="infrastructure">
+              Ver alcance completo <span>↗</span>
+            </button>
+          </article>
         </div>
       </section>
 
-      <section class="about section" id="nosotros">
-        <div><p class="eyebrow">ENFOQUE PROFESIONAL</p><h2>Menos interrupciones. Más control.</h2></div>
-        <div class="about-copy"><p>Convertimos necesidades técnicas en soluciones prácticas. Desde una red pequeña hasta una infraestructura en expansión, trabajamos con estándares, documentación y una comunicación directa.</p><div class="metrics"><div><strong>100%</strong><span>Atención a medida</span></div><div><strong>24/7</strong><span>Redes que no paran</span></div><div><strong>01</strong><span>Equipo de confianza</span></div></div></div>
+      <section class="architecture section" id="arquitectura">
+        <div class="architecture-copy reveal">
+          <p class="section-index">02 / ARQUITECTURA</p>
+          <h2>Visibilidad de extremo a extremo.</h2>
+          <p>
+            Una red profesional no es una colección de equipos: es un sistema coordinado. Analizamos el tráfico,
+            aislamos riesgos y priorizamos los servicios críticos para construir una operación predecible.
+          </p>
+          <div class="architecture-points">
+            <div><span>01</span><p><strong>Continuidad</strong>Rutas alternativas y recuperación planificada.</p></div>
+            <div><span>02</span><p><strong>Control</strong>Permisos, segmentos y políticas observables.</p></div>
+            <div><span>03</span><p><strong>Escala</strong>Capacidad para crecer sin rediseños improvisados.</p></div>
+          </div>
+          <a class="inline-link" href="mailto:rafaelbarrosec@gmail.com?subject=Solicitud%20de%20evaluaci%C3%B3n%20de%20red">
+            Solicitar evaluación de red <span>→</span>
+          </a>
+        </div>
+
+        <div class="telemetry reveal" aria-label="Visualización conceptual de telemetría de red">
+          <div class="telemetry-top">
+            <span>RB / TELEMETRY</span>
+            <div><i></i><i></i><i></i></div>
+          </div>
+          <div class="chart-head">
+            <div><small>TRÁFICO PROCESADO</small><strong data-counter="98">0</strong><sup>%</sup></div>
+            <span>Últimos 60 min</span>
+          </div>
+          <div class="bar-chart" aria-hidden="true">
+            <i style="--h:33%"></i><i style="--h:45%"></i><i style="--h:38%"></i><i style="--h:58%"></i>
+            <i style="--h:72%"></i><i style="--h:52%"></i><i style="--h:64%"></i><i style="--h:83%"></i>
+            <i style="--h:68%"></i><i style="--h:92%"></i><i style="--h:78%"></i><i style="--h:88%"></i>
+            <i style="--h:64%"></i><i style="--h:80%"></i><i style="--h:96%"></i><i style="--h:82%"></i>
+            <i style="--h:91%"></i><i style="--h:76%"></i><i style="--h:86%"></i><i style="--h:98%"></i>
+          </div>
+          <div class="chart-axis"><span>12:00</span><span>12:20</span><span>12:40</span><span>13:00</span></div>
+          <div class="telemetry-cards">
+            <div><span>LATENCIA</span><strong>Estable</strong><small><i class="good"></i> Ruta optimizada</small></div>
+            <div><span>SEGMENTOS</span><strong>Protegidos</strong><small><i class="good"></i> Políticas activas</small></div>
+            <div><span>ENLACES</span><strong>Redundantes</strong><small><i class="good"></i> Failover listo</small></div>
+          </div>
+          <div class="scan-line" aria-hidden="true"></div>
+        </div>
       </section>
 
-      <section class="process section" id="proceso">
-        <div class="section-heading"><p class="eyebrow">CÓMO TRABAJAMOS</p><h2>De la necesidad a una red que responde.</h2></div>
-        <ol><li><span>01</span><h3>Escuchamos</h3><p>Entendemos tu operación, problemas y objetivos.</p></li><li><span>02</span><h3>Diseñamos</h3><p>Proponemos una solución clara, segura y viable.</p></li><li><span>03</span><h3>Implementamos</h3><p>Ejecutamos con orden y mínimo impacto en tu operación.</p></li><li><span>04</span><h3>Acompañamos</h3><p>Te entregamos soporte y documentación para seguir creciendo.</p></li></ol>
+      <section class="method section" id="metodologia">
+        <div class="section-heading compact reveal">
+          <div>
+            <p class="section-index">03 / METODOLOGÍA</p>
+            <h2>De la incertidumbre a una infraestructura <span>bajo control.</span></h2>
+          </div>
+        </div>
+        <div class="method-track">
+          <article class="reveal">
+            <span class="method-number">01</span>
+            <div class="method-dot"></div>
+            <h3>Diagnóstico</h3>
+            <p>Levantamiento de equipos, enlaces, riesgos, cobertura y prioridades operativas.</p>
+            <small>DESCUBRIR</small>
+          </article>
+          <article class="reveal">
+            <span class="method-number">02</span>
+            <div class="method-dot"></div>
+            <h3>Arquitectura</h3>
+            <p>Diseño de topología, seguridad, capacidad y alcance técnico de la solución.</p>
+            <small>DISEÑAR</small>
+          </article>
+          <article class="reveal">
+            <span class="method-number">03</span>
+            <div class="method-dot"></div>
+            <h3>Implementación</h3>
+            <p>Configuración, despliegue, pruebas y transición con impacto controlado.</p>
+            <small>ACTIVAR</small>
+          </article>
+          <article class="reveal">
+            <span class="method-number">04</span>
+            <div class="method-dot"></div>
+            <h3>Optimización</h3>
+            <p>Documentación, ajustes, transferencia de conocimiento y soporte evolutivo.</p>
+            <small>EVOLUCIONAR</small>
+          </article>
+        </div>
       </section>
 
-      <section class="contact" id="contacto">
-        <div><p class="eyebrow">HABLEMOS</p><h2>¿Listo para mejorar tu infraestructura?</h2><p>Cuéntanos qué necesitas y encontremos la mejor forma de resolverlo.</p></div>
-        <!-- Cambia el correo y el enlace de WhatsApp por tus datos antes de publicar. -->
-        <div class="contact-actions"><a class="button light" href="mailto:tu-correo@ejemplo.com">Escribir por correo <span>→</span></a><a class="whatsapp" href="https://wa.me/570000000000" target="_blank" rel="noopener">WhatsApp ↗</a></div>
+      <section class="about section">
+        <div class="about-mark reveal" aria-hidden="true">
+          <span>RB</span>
+          <i></i><i></i><i></i><i></i>
+        </div>
+        <div class="about-copy reveal">
+          <p class="section-index">04 / PERFIL</p>
+          <h2>Rafael Barros.</h2>
+          <p class="about-lead">Ingeniería cercana. Resultados técnicamente sólidos.</p>
+          <p>
+            Acompaño a organizaciones que necesitan convertir su infraestructura tecnológica en una ventaja:
+            menos interrupciones, mejores controles y decisiones respaldadas por una arquitectura clara.
+          </p>
+          <p>
+            Mi enfoque une visión de negocio, ejecución técnica y documentación comprensible. Cada proyecto se
+            plantea con objetivos concretos, alcance transparente y capacidad real de crecimiento.
+          </p>
+          <div class="signature">Rafael Barros E.</div>
+        </div>
+      </section>
+
+      <section class="contact section" id="contacto">
+        <div class="contact-aura" aria-hidden="true"></div>
+        <div class="contact-content reveal">
+          <p class="section-index">05 / CONVERSEMOS</p>
+          <h2>Tu próxima red puede ser más <span>rápida, segura y simple.</span></h2>
+          <p>
+            Cuéntame qué está frenando tu operación. Construyamos una solución con alcance claro y preparada
+            para el futuro.
+          </p>
+          <a class="email-link" href="mailto:rafaelbarrosec@gmail.com">
+            rafaelbarrosec@gmail.com
+            <span>↗</span>
+          </a>
+        </div>
+        <div class="contact-card reveal">
+          <span>INICIAR PROYECTO</span>
+          <h3>Solicita un diagnóstico inicial.</h3>
+          <p>Describe tu necesidad, el número de sedes o usuarios y el reto principal de conectividad.</p>
+          <a class="button button-primary" href="mailto:rafaelbarrosec@gmail.com?subject=Diagn%C3%B3stico%20inicial%20de%20infraestructura">
+            Escribir a Rafael
+            <span>↗</span>
+          </a>
+        </div>
       </section>
     </main>
-    <footer><a class="brand" href="#inicio"><span>R</span> Rafa Networks</a><p>© <span id="year"></span> Rafa Networks. Ingeniería de sistemas y redes.</p></footer>
+
+    <footer>
+      <div class="footer-brand">
+        <a class="brand footer-wordmark" href="#inicio" aria-label="Rafael Barros, volver al inicio">
+          <span class="brand-monogram">RB</span>
+          <span class="brand-name">RAFAEL BARROS<small>NETWORKING AVANZADO</small></span>
+        </a>
+        <p>Soluciones networking avanzadas.</p>
+      </div>
+      <div class="footer-meta">
+        <span>Barranquilla, Colombia</span>
+        <a href="mailto:rafaelbarrosec@gmail.com">rafaelbarrosec@gmail.com</a>
+      </div>
+      <p class="copyright">© <span data-year></span> Rafael Barros E. Todos los derechos reservados.</p>
+    </footer>
+
+    <dialog class="service-dialog" data-dialog>
+      <button class="dialog-close" type="button" aria-label="Cerrar detalle">×</button>
+      <p class="dialog-index" data-dialog-index>01 / CAPACIDAD</p>
+      <h2 data-dialog-title>Networking avanzado</h2>
+      <p data-dialog-copy></p>
+      <div class="dialog-scope" data-dialog-scope></div>
+      <a class="button button-primary" href="mailto:rafaelbarrosec@gmail.com?subject=Consulta%20sobre%20servicios">
+        Consultar este servicio <span>↗</span>
+      </a>
+    </dialog>
+
     <script src="script.js"></script>
   </body>
 </html>
