@@ -1817,9 +1817,9 @@ footer {
     padding-top: 74px;
   }
   .brand-banner img {
-    min-height: 250px;
-    object-fit: cover;
-    object-position: 48% center;
+    height: 56.2vw;
+    object-fit: contain;
+    object-position: center;
   }
   .banner-action {
     right: 16px;
